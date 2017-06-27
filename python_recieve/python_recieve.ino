@@ -41,4 +41,8 @@ void loop(){
   }
   delay(delayDuration);
   }  
+  if(Str[0]='c'){
+  analogWrite(3,0);
+  analogWrite(11,0);
+  }
 }
